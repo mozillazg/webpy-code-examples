@@ -19,8 +19,12 @@ urls = (
     "/del/(\d+)", "Delete"
 )
 
+t_globals = {
+    'homepath': '/todo',
+}
+
 ### Templates
-render = web.template.render('todolist/templates', base='base')
+render = web.template.render('todolist/templates', base='base', globals=t_globals)
 
 
 class Index:

@@ -3,7 +3,7 @@ import db
 import config
 
 t_globals = dict(
-  datestr=web.datestr,
+    datestr=web.datestr,
 )
 render = web.template.render('skeleton/templates/', cache=config.cache, 
     globals=t_globals)

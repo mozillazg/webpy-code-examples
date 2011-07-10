@@ -28,6 +28,7 @@ urls = (
 ### Templates
 t_globals = {
     'datestr': web.datestr,
+    'homepath': '/blog',
 }
 render = web.template.render('blog/templates', base='base', globals=t_globals)
 

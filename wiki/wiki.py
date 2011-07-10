@@ -18,6 +18,7 @@ urls = (
 t_globals = {
     'datestr': web.datestr,
     'markdown': markdown.markdown,
+    'homepath': '/wiki',
 }
 render = web.template.render('wiki/templates', base='base', globals=t_globals)
 

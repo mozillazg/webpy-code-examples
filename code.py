@@ -11,7 +11,7 @@ urls = (
     "/(.*)/", "Redirect",
     "/todo", todolist.todo.app,
     '/blog', blog.blog.app,
-    '/skeleton', skeleton.code,
+    '/skeleton', skeleton.code.app,
     '/wiki', wiki.wiki.app,
     "/.*", "Index"
 )

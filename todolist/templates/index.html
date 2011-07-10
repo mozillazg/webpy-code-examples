@@ -9,7 +9,7 @@ $def with(todos, form)
     <tr>
         <td>$todo.title</td>
         <td>
-            <form action="/del/$todo.id" meth="post">
+            <form action="$homepath/del/$todo.id" meth="post">
                 <input type="submit" value="Delete" />
             </form>
         </td>
